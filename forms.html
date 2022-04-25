@@ -7,47 +7,47 @@
     <title>Forms</title>
 </head>
 
-<!-- -->
+<!-- User name & Password -->
 <body>
     <section>
         <h1>UserName and Password</h1>
             <form action="/tacos">
-                <!--  -->
+                <!-- User label & text input box -->
                 <p>
                     <label for="username">Enter A Name:</label>
                     <input id="username" type="text" placeholder="Username" name="username">
 
                 </p>
-                <!--  -->
+                <!-- Password label & text input box -->
                 <p>
                     <label for="password">Enter A Password:</label>
                     <input id="password" type="password" placeholder="Password" name="password">
 
                 </p>
-                <!--  -->
+                <!-- naming the submission button  -->
                 <button>Submit Button</button>
 
             </form>
     </section>
     <hr>
-    <!--  -->
+    <!-- Query strings  -->
     <section>
-        <!--  -->
+        <!-- header -->
         <h1>Query Strings</h1>
-        <!--  -->
+        <!-- link to reddit -->
             <form action="https://www.reddit.com/search/">
 
                 <input type="text" name="q">
                 <button>Submit Reddit</button>
             </form>
-        <!--  -->
+        <!-- link to youtube -->
             <form action="https://www.youtube.com/results?search_query=">
 
                 <input type="text" name="q">
                 <button>Search YouTube</button>
 
             </form>
-        <!--  -->
+        <!-- link to google -->
             <form action="https://www.google.com/search">
 
                 <input type="text" name="q">
@@ -57,7 +57,7 @@
 
     </section>
     <hr>
-<!--  -->
+<!-- Radio Buttons & Checkboxes -->
     <section>
         <h1>Radio Buttons and Checkboxes</h1>
             <form action="/birds">
@@ -76,7 +76,7 @@
                     <input type="radio" name="size" id="l" value="large">
 
                 </p>
-                <!--  -->
+                <!-- textbox for What is your favortie color -->
                 <p>
                     <label for="favColor">What is your favorite color</label>
 
@@ -93,14 +93,14 @@
 
                 </p>
 
-                <!--  -->
+                <!-- label, scrollbar. And then creates scroll bar with input mdn -->
                 <p>
                     <label for="scroll">Troy's Scrollbar</label>
                     <input type="range" id="scroll" min="5" max="10" name="scrollbar">
 
                 </p>
-                
-                <!--  -->
+
+                <!--labels the textarea request and then creates the box for request to be inputed-->
                 <P>
                     <label for="request">Type Into This Box</label>
                     <textarea id="requests" name="reqs" rows="15" cols="15" placeholder="Type Something Here!"></textarea>
@@ -110,6 +110,27 @@
 
                 <button>Submit Button</button>
             </form>
+    </section>
+    <hr>
+    <!-- Form Validations -->
+    <section>
+        <h2>Form validations</h2>
+        <form action="/bananas">
+            <!-- creates labeled textbox with requirements -->
+            <label for="required1"></label>
+            <input type="text" name="funny" id="required1" required>
+
+            <!-- Min length & Max length -->
+            <label for="length"></label>
+            <input type="text" naem="lengthy" id="length" minlength="5" maxlength="10">
+
+            <p>
+                <input type="email" required>
+
+
+            </p>
+            <button type="submit">Submit</button>
+        </form>
     </section>
 
 </body>
