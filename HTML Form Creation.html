@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Please fill out the form below</h1>
+
+    <!-- FIRST NAME & Last Name -->
+    <section>
+        <form action="/theSauce">
+            <P>
+                <!-- First Name -->
+                <label for="First Name">First Name:</label>
+                <input id="First Name" type="text" placeholder="First Name" name="First Name">
+
+            </P>
+            <p>
+                <!-- Last Name -->
+                <label for="Last Name">Last Name:</label>
+                <input id="Last Name" type="text" placeholder="Last Name" name="Last Name">
+
+            </p>
+        </form>
+    </section>
+    <!-- Combo box -->
+    <section>
+        <!-- Which food would you like to eat -->
+        <p>
+            <label for="whatFood">What food would you like to eat?</label>
+
+            <select name="foodSelection" id="whatFood">
+
+                <option value="Ramen">Ramen</option>
+                
+                <option value="Curry">Curry</option>
+
+                <option value="Gumbo">Gumbo</option>
+
+            </select>
+        </p>
+    </section>
+    <!-- Do you have allergies textbox -->
+    <section>
+        <P>
+            <label for="request">Do you have any allergies?</label>
+            <textarea id="request" name="reqs" rows="5" cols="15" placeholder="I hope your not allergic to peanuts..."></textarea>
+
+        </P>
+    </section>
+
+    
+</body>
+</html>
