@@ -1,0 +1,17 @@
+h1{ 
+    color:forestgreen;
+}
+
+h2{
+    color:purple;
+}
+
+p{
+    color:pink;
+    background-color:forestgreen;
+}
+
+button{
+    color:floralwhite;
+    background-color:blue
+}
