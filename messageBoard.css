@@ -1,9 +1,31 @@
 
 /* Universal selector*/
+
+/*
 *   {
 
     color:pink;
     background-color:green;
 
+}  */
+
+/* using element selector "body"  */
+body {
+
+    background-color:beige;
+}
+
+
+/* element selector "button" */
+button {
+
+    font-size:30px;
+}
+
+
+/* multiple elements */
+h1, h2 {
+
+    color:crimson;
 }
 
