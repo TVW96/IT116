@@ -29,3 +29,22 @@ h1, h2 {
     color:crimson;
 }
 
+/* particular button id selection */
+
+#signup {
+
+    background-color: pink;
+    color:blue;
+}
+
+/* word SEC seperated with a span tag */
+.sec {
+
+    color:green;
+}
+
+/*  */
+.post a {
+
+    color:hotpink;
+}
