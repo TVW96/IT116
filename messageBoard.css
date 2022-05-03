@@ -37,14 +37,50 @@ h1, h2 {
     color:blue;
 }
 
-/* word SEC seperated with a span tag */
+/* calling by class */
 .sec {
 
     color:green;
 }
 
-/*  */
+/* descendant class selector */
 .post a {
 
     color:hotpink;
+}
+
+/* descendant element selector 2 */
+footer > a{
+
+    color:purple;
+}
+
+/* type selector */
+input[type="password"]{
+
+    color:purple;
+}
+
+/*  */
+input[type="text"]{
+
+    color:red;
+}
+
+/* specified character selection */
+a[href*="google"]{
+
+    color:darkorange;
+}
+
+/* pseudo-classes */
+button:hover {
+    background-color:red;
+    color:aquamarine;
+}
+
+/* Nested psuedo-elements */
+.post button:active {
+
+    background-color:green;
 }
