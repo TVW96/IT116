@@ -1,0 +1,30 @@
+.BoomerTide {
+    color:crimson;
+}
+
+.CaneIrish {
+    color:forestgreen;
+}
+
+.maize {
+    color:rgb(247, 192, 79)
+}
+
+.BigRed {
+    color:red;
+}
+
+.Longhorns {
+    color:rgb(247, 138, 43)
+}
+
+#yes {
+    size:30px;
+    color:whitesmoke;
+    background-color:green;
+}
+
+#no {
+    color:whitesmoke;
+    background-color:red;
+}

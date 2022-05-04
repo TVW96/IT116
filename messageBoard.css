@@ -73,14 +73,27 @@ a[href*="google"]{
     color:darkorange;
 }
 
-/* pseudo-classes */
+/* pseudo-class */
 button:hover {
     background-color:red;
     color:aquamarine;
 }
 
-/* Nested psuedo-elements */
+/* Nested psuedo-class */
 .post button:active {
 
     background-color:green;
 }
+
+/* psuedo-elements */
+h2::first-letter {
+
+    font-size:50px;
+}
+
+/*  */
+p::first-line {
+
+    color:green;
+}
+
