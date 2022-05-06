@@ -1,9 +1,19 @@
-a {
+h1 a {
     font-size:30px;
     color:green;
 }
 
-#schools {
+#schools a {
+
+    color:blue;
+}
+
+#schools a[href="/Cleveland"] { 
+
+    color:red;
+}
+
+#school a[href="/Seattle"] {
 
     color:blue;
 }
