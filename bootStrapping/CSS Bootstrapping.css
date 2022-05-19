@@ -1,0 +1,17 @@
+.matrix {
+
+    font-size: 4;
+    text-align: center;
+    color: white;
+    background-color:rgb(1, 58, 1);
+
+}
+
+.alert-danger {
+    text-align: center;
+    
+}
+
+.center {
+    text-align: center;
+}
