@@ -107,12 +107,57 @@ console.log(items);
 //////////////////////////////////////////////////////////////////////////
 ///////////// getElementsByTagName
 
-var li = document.getElementsByTagName('li');
 
-console.log(li);
-console.log(li[1]);
+// TAG NAME WAS 'li', GOT THE TAG AND CALLED THE INDEX [1]
+//var li = document.getElementsByTagName('li');
 
-li[1].textContent = "Hello 2 Now";
-li[1].style.fontWeight = 'bold';
-li[1].style.backgroundColor = 'green';
-li[1].style.color = 'white';
+//console.log(li);
+//console.log(li[1]);
+
+//li[1].textContent = "Hello 2 Now";
+//li[1].style.fontWeight = 'bold';
+//li[1].style.backgroundColor = 'green';
+//li[1].style.color = 'white';
+
+//for(var i = 0; i < li.length; i++) {
+
+//    li[1].style.backgroundColor = 'lightgrey';
+//    li[1].textContent = "I Changed The Items From the DOM";
+//    li[i].style.color = 'white';
+//}
+
+
+///////////////////////////////////////////////////////////////////////////////
+////////////////////Query Selector:
+
+//semantic tag query selector
+//var header = document.querySelector('#main-header');
+//header.style.borderBottom = 'solid 4px hotpink';
+
+//element query selector 'input'
+//var input = document.querySelector('input');
+//input.value = "I just changed the text value in the input box.";
+
+//element type qeury selector (input -> "submit")
+//var submit = document.querySelector('input[type="submit"]');
+//submit.value = "HELLO BUTTON";
+
+// last Child query selctor "lastItem"
+//Calling the last node of the paticular element from querySelect
+//var lastItem = document.querySelector('.list-group-item:last-child');
+//lastItem.style.color = 'blue';
+
+// nth child query selector 
+// n can be a number, keyword(odd or even), or a formula (an + b)
+//var otherItem = document.querySelector('.list-group-item:nth-child(2)');
+//otherItem.style.color = 'coral';
+
+//////////////////////////////////////////////////////////////////
+////QUERY SELECTOR ALL
+
+// query class selectorAll 
+// class = "title" // use '.' when calling class
+var titles = document.querySelectorAll('.title');
+console.log(titles);
+// index select the query we have chosen
+titles[0].textContent = 'Hello, I just changed the Title';
