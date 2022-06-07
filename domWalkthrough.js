@@ -160,4 +160,17 @@ console.log(items);
 var titles = document.querySelectorAll('.title');
 console.log(titles);
 // index select the query we have chosen
-titles[0].textContent = 'Hello, I just changed the Title';
+titles[0].textContent = 'Hey Monte, I changed the title again';
+
+// var even and odd created W/ nth-child(odd) & nth-child(even)
+var odd = document.querySelectorAll('li:nth-child(odd)');
+var even = document.querySelectorAll('li:nth-child(even)');
+
+// iterating the length of our Variable's
+for (var i = 0; i < odd.length; i++) {
+
+    odd[i].style.backgroundColor = 'grey';
+    even[i].style.backgroundColor = 'green';
+    even[i].style.color = 'whitesmoke';
+    odd[i].style.color = 'whitesmoke';
+}
